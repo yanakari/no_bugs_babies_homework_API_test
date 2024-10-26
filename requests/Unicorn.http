@@ -1,0 +1,28 @@
+PUT https://crudcrud.com/api/80a1a72808fd4adbb27d100d13a5c3be/unicorn/671d45a83af7c503e8d5c8dd
+Content-Type: application/json
+
+{
+  "colortail": "white"
+}
+
+###
+DELETE https://crudcrud.com/api/80a1a72808fd4adbb27d100d13a5c3be/unicorn/671d42fa3af7c503e8d5c8dc
+Accept: application/json
+
+
+
+###
+GET https://crudcrud.com/api/80a1a72808fd4adbb27d100d13a5c3be/unicorn/671d45a83af7c503e8d5c8dd
+Accept: application/json
+
+###
+POST https://crudcrud.com/api/80a1a72808fd4adbb27d100d13a5c3be/unicorn
+Content-Type: application/json
+
+{
+  "name": "Uni",
+  "colortail": "pink"
+}
+
+
+
